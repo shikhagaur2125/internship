@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-30T10:59:43 EST" name="Suite" finished-at="2020-12-30T10:59:43 EST" duration-ms="44">
+    <groups>
+      <group name="smoke">
+        <method signature="Test1.printName()[pri:0, instance:testNG.Test1@2bbf180e]" name="printName" class="testNG.Test1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-12-30T10:59:43 EST" name="Test" finished-at="2020-12-30T10:59:43 EST" duration-ms="44">
+      <class name="testNG.Test1">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testNG.Test1@2bbf180e]" started-at="2020-12-30T10:59:43 EST" name="beforetest" finished-at="2020-12-30T10:59:43 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="printName()[pri:0, instance:testNG.Test1@2bbf180e]" started-at="2020-12-30T10:59:43 EST" name="printName" finished-at="2020-12-30T10:59:43 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printName -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testNG.Test1@2bbf180e]" started-at="2020-12-30T10:59:43 EST" name="aftertest" finished-at="2020-12-30T10:59:43 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testNG.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
